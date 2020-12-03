@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoviesActivity"
+    android:background="@color/youtube_black">
+
+    <android.support.design.widget.TabLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tab_layout"
+        android:background="@drawable/tab_border"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:tabIndicatorColor="@android:color/transparent"
+        android:layout_alignParentBottom="true"/>
+
+    <com.example.auraflick.SwipeViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tab_layout"/>
+
+</RelativeLayout>

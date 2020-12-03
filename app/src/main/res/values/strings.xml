@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AuraFlick</string>
+    <string name="mood">AURAFLICK</string>
+    <string name="search">SEARCH</string>
+    <string name="favorites">FAVORITES</string>
+    <string name="question">Feeling?</string>
+    <string name="movies">Movies</string>
+    <string name="tv">TV Shows</string>
+</resources>

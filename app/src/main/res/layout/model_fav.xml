@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardBackgroundColor="@color/youtube_black"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:id="@+id/ivPosterFav"
+            android:src="@drawable/avengers" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:id="@+id/tvNameFav"
+            android:paddingTop="-7dp"
+            android:paddingLeft="5dp"
+            android:layout_below="@id/ivPosterFav"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Year"
+            android:textColor="@color/text_gray"
+            android:paddingLeft="5dp"
+            android:fontFamily="@font/roboto"
+            android:id="@+id/tvYearFav"
+            android:layout_below="@+id/tvNameFav"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Movie"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/text_gray"
+            android:id="@+id/tvTypeFav"
+            android:layout_below="@id/tvYearFav" />
+
+        <View style="@style/Divider"
+            android:layout_below="@id/tvTypeFav"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

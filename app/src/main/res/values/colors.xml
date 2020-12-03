@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="blue1">#0f2944</color>
+    <color name="blue2">#141a46</color>
+    <color name="magenta">#ff0067</color>
+    <color name="purple">#7b2fdb</color>
+    <color name="dark_red">#a41029</color>
+    <color name="dark_red_trans">#80a41029</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="gray">#3d3d3d</color>
+    <color name="text_gray">#7e7e7e</color>
+    <color name="transparent_gray">#4Dbfbfbf</color>
+    <color name="youtube_black">#282828</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/youtube_black">
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="match_parent"
+        android:layout_height="205dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Movie"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:layout_below="@id/ivPoster"/>
+
+    <View style="@style/Divider"
+        android:id="@+id/vDivider"
+        android:layout_below="@id/tvMovie"/>
+
+    <TextView
+        android:layout_below="@id/vDivider"
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/text_gray"
+        android:text="Example"/>
+
+</RelativeLayout>
